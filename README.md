@@ -1,8 +1,8 @@
 1:            BINARIZE THE VALUES of Rna.Seq
 
-The following procedure shows the steps for transforming the values of RNa-Seq into Boolean values (0, 1) through a binarization technique. The TRIB3 text file represents the Rna-Seq values to be transformed, in which the column indicates the expressed gene (in this case TRIB3), and each row describes the Rna-Seq level from each single analyzed  cell of a given patient.
+The following procedure shows the steps for transforming the values of RNa-Seq into Boolean values (0, 1) through a binarization technique.For example, the TRIB3 text file represents the Rna-Seq values to be transformed, in which the column indicates the expressed gene (in this case TRIB3), and each row describes the Rna-Seq level from each single analyzed  cell of a given patient.
 
-Using the R script "Binarize.R" to process the text file "TRIB3.txt", the Boolean values relating to the Rna-Seq data corresponding to the given gene are automatically obtained for each single cell in the archive.
+Using the R script "Binarize.R" to process the text file "TRIB3.txt", the Boolean values relating to the Rna-Seq data corresponding to the given gene are automatically obtained for each single cell in the archive. Adopting the same procedure, for each gene described in each line of the "Supplementary_table_1.xlsx" dataset in the supplementary table folder of this repository, the Boolean values of each cell analyzed for each gene are obtained.
 
 
 2:                RESEARCH NET ATTRACTORS
