@@ -15,5 +15,8 @@ Using the R script "Binarize.R" to process the text file "TRIB3.txt", boolean ge
 
 The python script for finding attractors ("attractors.py") works one cell (or column) at a time. The "model_definition1" section of the script contains the gene expression status of every single gene belonging to the network for a given cell.  The "Update rules" section of the script includes the Boolean functions applied to the inputs of each node making up the network. By inserting the appropriate value relative to the number of iterations ("model.iterate (steps = x)"), the script simulate a trajectory, where the network evolve for a certain number of steps until eventually reaching a stable state or cyclical set of states of the network representing an attractor. For the example provided in this repository, a message equal to "Cycle of length 6 starting at index 7" should be obtained, indicating that the gene network has encountered a cycle of 6 states after 18 iterations.
 
+The python script "attractor_2" allows the creation of the table "Supplementary Table 7". By processing the excel file that describes the attractor's cycle for each cell analyzed, it detects the possible regularity of its gene expression for each gene of the analyzed cell, whatever the length of the complex attractor.
+For example, by processing the file describing the attractor of the cell BC04_54, this characteristic is obtained for all the network nodes with a descriptor that expresses regularity (True or False) or irregularity (x) in the gene expression during the whole cycle of the attractor.
+By copying these single row values for each node of the network, you get the "Supplementary_Table_7" sheet.
 
 
