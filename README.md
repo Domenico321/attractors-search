@@ -18,5 +18,5 @@ The python script for finding attractors ("attractors.py") works one cell (or co
 The python script "attractor_2" allows the creation of the table "Supplementary Table 7". By processing the excel file that describes the attractor's cycle for each cell analyzed, it detects the possible regularity of its gene expression for each gene of the analyzed cell, whatever the length of the complex attractor.
 For example, by processing the file describing the attractor of the cell BC04_54, this characteristic is obtained for all the network nodes with a descriptor that expresses regularity (True or False) or irregularity (x) in the gene expression during the whole cycle of the attractor.
 By copying these single row values for each node of the network, you get the "Supplementary_Table_7" sheet.
-
-
+"Data-Driven Modeling of Breast Cancer Tumors Using Boolean Networks" was accepted by "Medicine and Public Health", a section of the journal Frontiers in Big Data on 22 September 2021.
+For information on the material contained in this repository please contact: canedo70@hotmail.it
